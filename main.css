@@ -287,6 +287,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
     gap: 1.5rem;
+    text-align: center;
 }
 
 .pricing .information span {

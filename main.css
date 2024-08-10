@@ -568,10 +568,8 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     text-align: center;
-    justify-content: center;
-    width: 92.5%;
-    height: 45vh;
-    gap: 1.5rem;
+    padding: 30px;
+    gap: 1.0rem;
 }
 
 .footer .box-container .box h3 {
@@ -623,18 +621,43 @@ section {
 }
 
 .footer .box-container .box form {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .footer .box-container .box form .email {
     margin-bottom: 1rem;
-    width: 100%;
+    width: 300px;
     background: #111;
     padding: 1.2rem;
     font-size: 1.5rem;
     color: #fff;
     text-transform: none;
 }
+
+.services {
+    background-color: #fff;
+    color: #232224;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 14px;
+  }
+  
+  .services-content h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 14px;
+  }
+  
+  .services-content p {
+    line-height: 150%;
+    margin-bottom: 14px;
+    text-align: center;
+    max-width: 780px;
+  }
+  
 /*Responsividade*/
 @media (max-width: 991px) {
     html {
